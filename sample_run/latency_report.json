@@ -1,0 +1,18 @@
+{
+  "budget_ms": 60000,
+  "hard_fail_ms": 300000,
+  "count": 2679,
+  "p50_ms": 0,
+  "p95_ms": 2,
+  "max_ms": 45001,
+  "over_budget": 0,
+  "over_5_min": 0,
+  "by_status": {
+    "PUBLISHED": 785,
+    "HOLDOUT": 894,
+    "ABSTAINED": 997,
+    "DUPLICATE": 90,
+    "DEGRADED": 3
+  },
+  "note": "Dependency delays (an 8s store read, a 45s model timeout) are added to decided_in_ms. The replay does not sleep for them."
+}
